@@ -53,5 +53,6 @@ def for_iterator(number_of_times)
 
   rangeSpread = 1..7
   for range in rangeSpread
-  puts phrase
-end
+    puts phrase
+  end
+end  
