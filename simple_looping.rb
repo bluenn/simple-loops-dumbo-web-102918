@@ -34,6 +34,7 @@ def while_iterator(number_of_times)
     phrase = "Welcome to Flatiron School's Web Development Course!"
     while number_of_times < 8
       puts phrase
+      number_of-times++
    end
 end
 
@@ -43,6 +44,7 @@ def until_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   until number_of_times == 8
     puts phrase
+    number_of_times++
   end
 end
 
