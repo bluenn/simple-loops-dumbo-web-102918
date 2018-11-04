@@ -6,15 +6,15 @@ def loop_iterator(number_of_times)
   # The integer is the number of times the loops should puts out the phrase
   # How can we make sure the loop breaks once it has puts out the phrase the
   #   correct number of times?
-  # Maybe we should keep count of the number of times we've puts out the 
+  # Maybe we should keep count of the number of times we've puts out the
   #  phrase and break when the counter hits the appropriate number...
   loop do
     phrase = "Welcome to Flatiron School's Web Development Course!"
     count++
     if count == 7
       break;
-    end 
-  end   
+    end
+  end
 end
 
 def times_iterator(number_of_times)
