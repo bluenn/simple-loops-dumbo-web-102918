@@ -55,4 +55,4 @@ def for_iterator(number_of_times)
   for range in rangeSpread
     puts phrase
   end
-end  
+end
