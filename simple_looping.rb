@@ -45,7 +45,7 @@ def until_iterator(number_of_times)
   until number_of_times == 8
     puts phrase
     number_of_times++
-  
+
 end
 
 # def for_iterator(number_of_times)
