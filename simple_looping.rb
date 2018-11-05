@@ -13,9 +13,7 @@ number_of_times = 0;
    loop do
     puts phrase
     number_of_times++
-    if number_of_times == 7
-      break;
-   end
+    break if number_of_times == 7     
   end
 end
 
