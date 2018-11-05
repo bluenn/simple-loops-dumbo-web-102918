@@ -34,7 +34,7 @@ def while_iterator(number_of_times)
     while number_of_times < 8
       puts phrase
       number_of_times++
-
+    end
 end
 
 def until_iterator(number_of_times)
@@ -45,16 +45,16 @@ def until_iterator(number_of_times)
   until number_of_times == 8
     puts phrase
     number_of_times++
-  
+  end
 end
 
-# def for_iterator(number_of_times)
+def for_iterator(number_of_times)
 #   # code your solution here using the "for" keyword
 #   # remember that `for` requires a range of numbers. How can we turn our number into a range?
 #   phrase = "Welcome to Flatiron School's Web Development Course!"
 #
-#   rangeSpread = 1..7
-#   for range in rangeSpread
-#     puts phrase
-#   end
-# end
+  rangeSpread = 1..number_of_times
+    for range in rangeSpread
+      puts phrase
+    end
+ end
