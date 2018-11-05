@@ -12,7 +12,7 @@ def loop_iterator(number_of_times)
  number_of_times = 0;
   loop do
     puts phrase
-    number_of_times++
+    number_of_times+=1
        if number_of_times == 7
         break   
   end
@@ -34,7 +34,7 @@ def while_iterator(number_of_times)
     phrase = "Welcome to Flatiron School's Web Development Course!"
     while number_of_times < 8
       puts phrase
-      number_of_times++
+      number_of_times+=1
     end
 end
 
@@ -45,7 +45,7 @@ def until_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   until number_of_times == 8
     puts phrase
-    number_of_times++
+    number_of_times+=1
   end
 end
 
